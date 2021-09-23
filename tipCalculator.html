@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main_heading">
+      <h1>Tip Calculator</h1>
+    </div>
+    <div class="parent_div">
+      <div class="input_info_div">
+        <form id="myForm" action="#">
+          <div class="styleInputAndlabel">
+            <div class="myLabel">Bill:</div>
+            <div>
+              <input
+                type="number"
+                id="bill_inputValue"
+                placeholder=""
+                required
+              />
+            </div>
+          </div>
+          <div class="styleInputAndlabel">
+            <div class="myLabel">Tip:</div>
+            <div>
+              <input
+                type="number"
+                id="tip_InputValue"
+                placeholder=""
+                required
+              />
+            </div>
+          </div>
+          <div class="styleInputAndlabel">
+            <div class="myLabel">Person:</div>
+            <div>
+              <input
+                type="number"
+                id="perPerson_tipValue"
+                placeholder=""
+                min="1"
+                required
+              />
+            </div>
+          </div>
+          <div class="mySubmitBtn">
+            <button type="submit" value="CalculateTip" id="submitValue">
+              CalculateTip
+            </button>
+          </div>
+          <!-- <div class="labelStyle">
+            <span>Bill:</span>
+            <input type="text" placeholder="" />
+          </div> -->
+          <!-- <div class="labelStyle">
+            <span>Tip:</span><input type="text" placeholder="" />
+          </div>
+          <div class="labelStyle">
+            <span>PerPerson:</span><input type="text" placeholder="" />
+          </div>
+          <div>
+            <button type="submit" value="CalculateTip" id="submit">
+              CalculateTip
+            </button>
+          </div> -->
+        </form>
+      </div>
+      <div class="displayContent_div">
+        <div class="tipBlock">
+          <div id="tipHeadingClass">
+            <h2>TIP</h2>
+          </div>
+          <div id="tipValueClass">
+            <h2>0.00</h2>
+          </div>
+        </div>
+        <div class="TotalBlock">
+          <div id="totalHeadingClass">
+            <h2>TOTAL</h2>
+          </div>
+          <div id="totalValueClass">
+            <h2>0.00</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="tipCalculatorScript.js"></script>
+  </body>
+</html>

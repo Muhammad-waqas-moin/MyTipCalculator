@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main_heading1,
+h1 {
+  color: #317b22;
+  font-family: monospace;
+  font-size: 3.6em;
+  text-align: center;
+  font-weight: 300;
+  padding-top: 50px;
+}
+.parent_div {
+  display: flex;
+  flex-flow: row nowrap;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 90%;
+  border: 1px solid #317b22;
+  margin: 0 auto;
+}
+.input_info_div {
+  width: 30%;
+  border: 1px solid #317b22;
+}
+.displayContent_div {
+  width: 70%;
+  border: 1px solid #317b22;
+}
+.myForm {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+/* input[type="text"] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 0 auto;
+} */
+/* .labelStyle {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+} */
+.styleInputAndlabel {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-top: 10%;
+  /* margin-bottom: 10%; */
+}
+input[type="number"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0 auto;
+}
+.myLabel {
+  font-family: monospace;
+  color: #317b22;
+  font-size: 2em;
+}
+.mySubmitBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background: transparent;
+}
+.mySubmitBtn button {
+  color: #317b22;
+  font-family: monospace;
+  padding: 15px;
+  font-size: 25px;
+  background-color: white;
+  border: 1px solid #317b22;
+}
+
+.mySubmitBtn button:hover {
+  color: white;
+  background-color: #317b22;
+}
+.tipBlock,
+.TotalBlock {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+  width: 80%;
+  margin: auto;
+  margin-top: 8%;
+}
+#tipHeadingClass h2,
+#tipValueClass h2,
+#totalHeadingClass h2,
+#totalValueClass h2 {
+  color: #317b22;
+  font-family: monospace;
+  font-size: 3em;
+  font-weight: 400;
+}
